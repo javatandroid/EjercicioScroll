@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tam5">5dp</dimen>
+    <dimen name="tam10">10dp</dimen>
+    <dimen name="tam20">20dp</dimen>
+    <dimen name="tam30">30dp</dimen>
+    <dimen name="tam40">40dp</dimen>
+    <dimen name="tam50">50dp</dimen>
+    <dimen name="tam80">80dp</dimen>
+    <dimen name="tam100">100dp</dimen>
+    <dimen name="tam200">200dp</dimen>
+
+
+</resources>

@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="estiloBaseBoton">
+
+        <item name="android:textSize">@dimen/tam10</item>
+        <item name="android:textColor">@color/botonescroll</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tam80</item>
+        <item name="android:layout_marginTop">@dimen/tam5</item>
+        <item name="android:layout_marginBottom">@dimen/tam5</item>
+        <item name="android:background">@drawable/estilo_boton</item>
+
+    </style>
+
+    <style name="estiloscroll1" parent="estiloBaseBoton">
+
+    <item name="android:text">@string/boton1</item>
+    </style>
+
+
+    <style name="estiloscroll2" parent="estiloBaseBoton">
+
+    <item name="android:text">@string/boton2</item>
+    </style>
+
+    <style name="estiloscroll3" parent="estiloBaseBoton">
+
+        <item name="android:text">@string/boton3</item>
+    </style>
+
+    <style name="estiloscroll4" parent="estiloBaseBoton">
+
+        <item name="android:text">@string/boton4</item>
+    </style>
+
+    <style name="estiloscroll5" parent="estiloBaseBoton">
+
+        <item name="android:text">@string/boton5</item>
+    </style>
+
+    <style name="estiloscroll6" parent="estiloBaseBoton">
+
+        <item name="android:text">@string/boton6</item>
+    </style>
+
+    <style name="estiloscroll7" parent="estiloBaseBoton">
+
+        <item name="android:text">@string/boton7</item>
+    </style>
+
+    <style name="estiloscroll8" parent="estiloBaseBoton">
+
+        <item name="android:text">@string/boton8</item>
+    </style>
+
+    <style name="estiloCabecera">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tam200</item>
+        <item name="android:background">@drawable/fondo</item>
+    </style>
+
+    <style name="estiloLayout">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/tam10</item>
+        <item name="android:background">@drawable/estilo_layout</item>
+    </style>
+
+    <style name="textocaja">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/tam5</item>
+        <item name="android:color">@color/textocaja</item>
+        <item name="android:text">@string/texto</item>
+    </style>
+    <style name="caja">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tam20</item>
+        <item name="android:layout_margin">@dimen/tam10</item>
+        <item name="android:background">@color/caja</item>
+        <item name="android:text">@string/caja</item>
+    </style>
+
+
+</resources>
